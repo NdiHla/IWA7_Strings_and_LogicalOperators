@@ -1,30 +1,29 @@
 1
 const value = "3"
-console.log(value + 4 + value)
+console.log(3 + 4 + 3)
 
 2
 const nickname= "Timmy";
 const firstname = "Timothy";
 
-console.log("Good Morning, ${nickname} || {firstname}!")
+console.log("Good Morning, ${nickname}")
 
 3
-Leo Musvaire (Owed: R 9394.00)
-Sarah Kleinhans (Owed: R 4582.20)
+LeoMusvaire (Owed='9394.00')
+SarahKleinhans (Owed='4582.20')
 
-----------------------------------
-  Total amount owed: R 14 976.20
-----------------------------------
 
-{leoName} + {leoSurname} + "Owed" + "R" + {sarahBalance}{leoName} + {surname} + "Owed" + "R" + {sarahBalance}--------------------------------------------------------------------Total amount owed: NaN----------------------------------
+  TotalAmount (owed='14 976.20')
 
-const leoName = 'Leo'
-const leoSurname = 'Musvaire     '
-const leoBalance = '-9394'
+{leoName} + {leoSurname} + "Owed" + "R" + {sarahBalance}+{leoName} + {surname} + "Owed" + "R" + {sarahBalance}(owed='NaN')
 
-const sarahName = 'Sarah    '
-const sarahSurname = 'Kleinhans'
-const sarahBalance = '-4582.21000111'
+constleoName  ('Leo')
+const leoSurname = ('Musvaire')
+const leoBalance = ('-9394')
+
+const sarahName = ('Sarah')
+const sarahSurname = ('Kleinhans')
+const sarahBalance = ('-4582.21000111')
 
 const divider = '----------------------------------'
 
